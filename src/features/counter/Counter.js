@@ -10,20 +10,14 @@ export function Counter() {
 
   return (
     <div>
-      
       <h1>
         <span>{count}</span>
       </h1>
-      
-      
       <input
-          
-          
           value={incrementAmount}
           onChange={(e) => setIncrementAmount(e.target.value)}
         />
         <button
-          
           onClick={() => dispatch(incrementByAmount(incrementValue))}
         >
           Add Amount
